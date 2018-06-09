@@ -10,7 +10,7 @@ def oxford_comma(array)
     new_array << "and " + array.pop
     array.each do |item|
       item + ", "
-    (array + new_array).join
+    new_array.join
   end
   end
 end
