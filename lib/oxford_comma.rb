@@ -8,8 +8,10 @@ def oxford_comma(array)
   else
     new_array = []
     new_array << "and " + array.pop
+    new_array.join
     array.each do |item|
       item + ", "
+    array + new_array
   end
   end
 end
