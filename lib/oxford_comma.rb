@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.length == 3
     array[0] + ", " + array[1] + "and " + array[2]
   else
-    and.insert 
+    array.insert(array.length-1,"and ")
     array.each do |item|
       item + ", "
   end
