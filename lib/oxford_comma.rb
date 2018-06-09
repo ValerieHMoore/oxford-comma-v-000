@@ -6,6 +6,4 @@ def oxford_comma(array)
   if array.length == 3
     array[0] + ", " + array[1] + " and " + array[2]
   end
-  end
-end
 end
