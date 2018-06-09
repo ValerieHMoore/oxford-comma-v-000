@@ -11,6 +11,6 @@ def oxford_comma(array)
     #array.each do |item|
      # item + ", "
     array.pop
-    array.join(", ") + new_array
+    array.join(", ") + new_array.join
   end
 end
