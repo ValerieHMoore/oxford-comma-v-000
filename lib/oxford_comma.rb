@@ -7,7 +7,7 @@ def oxford_comma(array)
     array[0] + ", " + array[1] + ", and " + array[2]
   else
     new_array = []
-    new_array << "and " + array.last
+    new_array << ", and " + array.last
     #array.each do |item|
      # item + ", "
     array.pop
