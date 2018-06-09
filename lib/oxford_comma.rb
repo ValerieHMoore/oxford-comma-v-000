@@ -10,5 +10,4 @@ def oxford_comma(array)
     array.each do |item|
       item + ", "
   end
-  end
 end
